@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+              13: "3.25rem",
+            },
+            fontFamily: {
+              oswald: ["Oswald"],
+            },
+          },
+        },
+      };
+    </script>
+    <title>Belajar Tailwindcss</title>
+    <!-- <style type="text/tailwindcss">
+      * {
+        border: 1px solid red;
+      }
+    </style> -->
+  </head>
+  <body>
+    <h1 class="text-8xl font-bold text-center my-10">Mari Belajar TailwindCSS</h1>
+
+    <section class="mb-10 bg-indigo-400">
+      <h2 class="text-2xl text-center">Spacing</h2>
+      <div class="m-44 bg-slate-600">Margin</div>
+      <div class="p-5 bg-red-500">Padding</div>
+    </section>
+
+    <section class="mb-10 bg-slate-400 text-red-500 text-end">
+      <h2 class="text-2xl text-center">Sizing</h2>
+      <div class="w-1/2 text-start bg-amber-500">Kotak 1</div>
+    </section>
+
+    <section class="mb-96 font-oswald max-w-3xl mx-auto">
+      <h2 class="mb-2 text-4xl font-bold">Belajar Mengenai Typography pada Tailwindcss</h2>
+      <div class="mb-4">By Dwi Fahmy Datumola 11 September 2023</div>
+      <p class="mb-4">
+        Lorem, ipsum dolor sit amet <a href="#" class="underline font-extralight text-blue-700">adipisicing</a> elit. Non velit rerum delectus labore distinctio est! Voluptatem distinctio, repudiandae harum eligendi sit dignissimos ullam
+        dolores natus! Beatae id velit corrupti laboriosam! Eum, fugiat quo inventore, delectus eos ducimus laudantium blanditiis culpa eaque nulla eius harum quia vitae, amet cupiditate modi fugit.
+      </p>
+      <blockquote class="mb-4 italic font-thin text-xl">
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi impedit nesciunt perferendis, facilis dignissimos dolores quidem aperiam reprehenderit, a odit at voluptates hic, sapiente porro."
+      </blockquote>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, hic incidunt! Minus repellat nemo nisi dicta blanditiis consectetur sunt, doloremque rem, consequatur temporibus rerum doloribus ratione laboriosam? Voluptatibus
+        similique harum quaerat praesentium quod fuga excepturi?
+      </p>
+    </section>
+
+    <div class="max-w-xl h-96 bg-slate-300 mx-auto mt-[42px] overflow-y-scroll bg-fixed" style="background-image: url('https:/source.unsplash.com/1000x600?beautifull girls')">
+      <p class="p-5 text-2xl">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, reiciendis sit at voluptatibus molestiae pariatur eveniet architecto quisquam saepe doloremque et totam ex ullam quo neque. Obcaecati corrupti iusto saepe similique
+        doloremque molestias! Aut necessitatibus accusamus aliquam. Soluta eveniet minus tempora molestiae facilis! Quibusdam facilis maiores reprehenderit dolores adipisci minima autem animi perferendis est. Dolorum dolores tempora nemo,
+        ipsa suscipit quisquam debitis obcaecati molestias tenetur omnis quibusdam nisi, libero minima commodi. Officia ipsa laudantium, tenetur incidunt perspiciatis odit in asperiores aliquid blanditiis velit obcaecati reprehenderit natus
+        facere qui neque repellendus at voluptate repudiandae provident laboriosam? Officiis velit ducimus, consequatur quo beatae necessitatibus repellat, laudantium aliquid reprehenderit nemo ab aliquam sapiente doloremque! Doloremque,
+        dolores aliquam. Vero nisi tempore voluptas libero quisquam! Nesciunt quasi nisi tenetur at velit quia dolorem aliquam sit! Quibusdam praesentium accusamus iste omnis exercitationem obcaecati molestias ratione commodi quas saepe sed
+        nihil voluptatem amet sequi qui dolor sit in maxime, cumque nam est voluptatibus doloribus? Modi consequuntur sequi cum earum pariatur doloribus voluptates architecto praesentium, officia natus impedit maxime illum aliquid animi
+        error, quidem libero a vitae repellendus accusamus accusantium. Sit labore pariatur quis recusandae deleniti doloremque ipsum quibusdam ratione asperiores, dolorem aperiam nam aliquam, nihil voluptatum dignissimos!
+      </p>
+    </div>
+
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-full shadow-xl shadow-slate-500" style="background-image: url(./img/keyboard.png)"></div>
+
+    <div class="mb-96"></div>
+  </body>
+</html>
